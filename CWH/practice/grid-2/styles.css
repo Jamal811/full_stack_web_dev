@@ -1,0 +1,39 @@
+.container {
+  border: 2px solid black;
+  display: grid;
+  /* grid-template-areas:
+    "nav nav nav"
+    "side article article"
+    "footer footer footer"; */
+  grid-template-columns: 1fr 2fr 1fr;
+  row-gap: 10px;
+  column-gap: 30px;
+}
+
+.item {
+  border: 2px solid red;
+  height: 55px;
+}
+
+/* .item-1 {
+  grid-area: nav;
+  background-color: aqua;
+}
+
+.item-2 {
+  grid-area: side;
+  background-color: beige;
+}
+
+.item-3 {
+  grid-area: article;
+  background-color: azure;
+}
+
+.item-4 {
+  grid-area: footer;
+} */
+
+/* .item-5 {
+  grid-area: nav;
+} */

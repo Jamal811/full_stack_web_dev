@@ -1,0 +1,20 @@
+.container {
+  border: 2px solid red;
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.item {
+  height: 90px;
+  width: 90px;
+  border: 2px solid rgb(29, 177, 131);
+  margin: 4px;
+  background-color: blueviolet;
+  flex-grow: 1;
+}
+.item1 {
+  flex-grow: 3;
+}

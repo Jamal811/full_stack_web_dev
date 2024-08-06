@@ -1,0 +1,20 @@
+.container {
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 120px 100px;
+  grid-template-rows: 100px 100px 100px;
+}
+.item {
+  height: 55px;
+  width: 55px;
+  border: 2px solid rgb(29, 177, 131);
+  background-color: blueviolet;
+}
+.item1 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+.item4 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}

@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box1 {
+  position: sticky;
+  top: 0px;
+  height: 200px;
+  width: 100%;
+  margin: 0;
+  background-color: blue;
+}
+
+.box2 {
+  /* position: relative; */
+  background-color: rgb(20, 139, 66);
+}
+
+.box3 {
+  /* position: relative;
+  z-index: 1; */
+  background-color: rgb(230, 141, 64);
+  /* position: fixed;
+    bottom: 0px;
+    left: 8vw;
+    height: 200px !important; */
+}
+
+.box4 {
+  background-color: rgb(219, 30, 124);
+}
+
+.box {
+  height: 200px;
+  width: 80vw;
+  padding: 3px;
+  margin: 3px;
+  border: 2px solid black;
+}
+
+.parent {
+  border: 3px solid blue;
+  padding: 35px;
+  margin: 4px;
+  position: absolute;
+}
